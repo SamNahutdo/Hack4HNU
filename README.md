@@ -183,7 +183,7 @@ Ensure the following tools are installed on the **Host Windows PC**:
 5. Select `hnu_ctf`, click the **Import** tab at the top.
 6. Click **Choose File** and select:
    ```text
-   C:\Users\Sam Nahutdo\Documents\HACKSAHNU\documentation\database_schema.sql
+   C:\HACKSAHNU\documentation\database_schema.sql
    ```
 7. Click **Import** at the bottom to execute the schema.
 
@@ -212,7 +212,7 @@ define('DB_PASS', '');           // Default is empty in XAMPP
    * Press <kbd>Win</kbd> + <kbd>R</kbd>, type `cmd`, and press <kbd>Enter</kbd>.
 2. Run the following commands to install packages and compile the production build:
    ```cmd
-   cd "c:\Users\Sam Nahutdo\Documents\HACKSAHNU\frontend"
+   cd "\HACKSAHNU\frontend"
    npm install
    npm run build
    ```
@@ -228,7 +228,7 @@ To run the platform during the competition with live development sync, open **tw
 Open the first Windows Command Prompt:
 
 ```cmd
-cd "c:\Users\Sam Nahutdo\Documents\HACKSAHNU"
+cd "\HACKSAHNU"
 php -S 0.0.0.0:8000 router.php
 ```
 
@@ -241,6 +241,7 @@ php -S 0.0.0.0:8000 router.php
 Open a second Windows Command Prompt:
 
 ```cmd
+example:
 cd "c:\Users\Sam Nahutdo\Documents\HACKSAHNU\frontend"
 npm run dev
 ```
@@ -368,6 +369,21 @@ Public self-registration is strictly disabled to prevent unauthorized accounts d
 * Open XAMPP Control Panel and check which port MySQL is using.
 * The backend automatically checks both port `3308` and `3306`. If your MySQL port is customized, update `backend/config/database.php`.
 </details>
+
+---
+
+### Developers
+
+
+| Name | Role |  
+| :--- | :--- | 
+| Sam |  | 
+| Siris | |
+| Marchus |  |
+| Rael |  |
+| Mj |  |
+| Cris |  |
+| Alexes |  |
 
 ---
 
